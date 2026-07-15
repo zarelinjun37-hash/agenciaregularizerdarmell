@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectasul - Hospedagem de Sites Premium e Internet Fibra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1563014959-7aaa83350992?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+            color: white;
+        }
+        .plan-card {
+            transition: transform 0.3s;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .plan-card:hover {
+            transform: translateY(-10px);
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0d6efd;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 40px 0 20px;
+        }
+        .bg-light-custom {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-lightning-charge-fill me-2"></i>Conectasul
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#planos">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Internet Fibra de Alta Velocidade</h1>
+            <p class="lead mb-4">Conectando você ao mundo com a melhor tecnologia e suporte premium</p>
+            <a href="#planos" class="btn btn-primary btn-lg me-2">Ver Planos</a>
+            <a href="#contato" class="btn btn-outline-light btn-lg">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-speedometer2 feature-icon"></i>
+                    <h3>Ultra Velocidade</h3>
+                    <p>Internet fibra óptica com velocidade simétrica para downloads e uploads rápidos.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-shield-check feature-icon"></i>
+                    <h3>Segurança Garantida</h3>
+                    <p>Proteção avançada contra invasões e ameaças virtuais para seus dados.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-headset feature-icon"></i>
+                    <h3>Suporte 24/7</h3>
+                    <p>Nossa equipe está disponível todos os dias para resolver qualquer problema.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos Section -->
+    <section id="planos" class="py-5 bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos Planos de Internet</h2>
+                <p class="lead">Escolha o plano ideal para suas necessidades</p>
+            </div>
+            
+            <div class="row">
+                <!-- Plano 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card plan-card text-center">
+                        <div class="card-header py-3 bg-primary text-white">
+                            <h4 class="my-0 fw-normal">Plano Básico</h4>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">100 Mbps</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="bi bi-check text-success me-2"></i>Download até 100 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Upload até 50 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Conexão estável 24h</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Wi-Fi grátis</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Instalação gratuita</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Contratar Agora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Plano 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card plan-card text-center">
+                        <div class="card-header py-3 bg-success text-white">
+                            <h4 class="my-0 fw-normal">Plano Intermediário</h4>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">300 Mbps</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="bi bi-check text-success me-2"></i>Download até 300 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Upload até 150 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Conexão estável 24h</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Wi-Fi grátis</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Instalação gratuita</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-success">Contratar Agora</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Plano 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card plan-card text-center">
+                        <div class="card-header py-3 bg-warning text-dark">
+                            <h4 class="my-0 fw-normal">Plano Premium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">600 Mbps</h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><i class="bi bi-check text-success me-2"></i>Download até 600 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Upload até 300 Mbps</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Conexão estável 24h</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Wi-Fi grátis</li>
+                                <li><i class="bi bi-check text-success me-2"></i>Instalação gratuita</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-warning">Contratar Agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós Section -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Sobre a Conectasul</h2>
+                    <p>Desde nossa fundação em 2021, temos nos dedicado a oferecer serviços de internet de alta qualidade e hospedagem de sites premium para clientes em todo o Brasil.</p>
+                    
+                    <h4 class="mt-4">Nossa Missão</h4>
+                    <p>Proporcionar conexões estáveis e rápidas que permitam aos nossos clientes explorar todo o potencial da internet com segurança e confiabilidade.</p>
+                    
+                    <h4 class="mt-4">Nossa Visão</h4>
+                    <p>Ser reconhecida como a melhor provedora de internet fibra e hospedagem de sites do sul do Brasil, destacando-nos pelo atendimento personalizado e qualidade técnica.</p>
+                    
+                    <h4 class="mt-4">Nossos Valores</h4>
+                    <ul>
+                        <li>Transparência com nossos clientes</li>
+                        <li>Inovação tecnológica constante</li>
+                        <li>Compromisso com a satisfação do cliente</li>
+                        <li>Ética e responsabilidade em todas as relações</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1560415751-3f3c5b679071?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Equipe Conectasul" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informações Corporativas -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Informações Corporativas</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Dados da Empresa</h4>
+                    <ul class="list-unstyled">
+                        <li><strong>Razão Social:</strong> Conectasul Servicos de Hospedagem Na Internet LTDA</li>
+                        <li><strong>Nome Fantasia:</strong> Conectasul Hospedagem de Sites Premium</li>
+                        <li><strong>CNPJ:</strong> 42.331.755/0001-19</li>
+                        <li><strong>Data de Abertura:</strong> 15/06/2021</li>
+                        <li><strong>Porte:</strong> Micro Empresa</li>
+                        <li><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</li>
+                        <li><strong>Capital Social:</strong> R$ 1.000,00</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Endereço</h4>
+                    <p>
+                        Rua Doutor Joao Colin, 1285 - Sala 3<br>
+                        Bairro America<br>
+                        Joinville - SC<br>
+                        CEP: 89204-002
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-5 bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Entre em Contato</h2>
+                <p class="lead">Estamos à disposição para esclarecer suas dúvidas</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-envelope feature-icon"></i>
+                            <h4>E-mail</h4>
+                            <p>atendimento@conectasul.com</p>
+                            <a href="mailto:atendimento@conectasul.com" class="btn btn-outline-primary">Enviar E-mail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-telephone feature-icon"></i>
+                            <h4>Telefone/WhatsApp</h4>
+                            <p>(48) 99166-6864</p>
+                            <a href="https://wa.me/5548991666864" class="btn btn-outline-success">Conversar no WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Política de Privacidade e Cookies -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Políticas e Termos</h2>
+            
+            <div class="accordion" id="policyAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#privacyPolicy">
+                            Política de Privacidade
+                        </button>
+                    </h2>
+                    <div id="privacyPolicy" class="accordion-collapse collapse show" data-bs-parent="#policyAccordion">
+                        <div class="accordion-body">
+                            <p>A Conectasul valoriza a privacidade de seus clientes e usuários. Coletamos apenas informações necessárias para a prestação de nossos serviços e melhorar sua experiência.</p>
+                            <p>Não compartilhamos seus dados pessoais com terceiros, exceto quando necessário para a prestação de serviços ou por exigência legal.</p>
+                            <p>Seus dados são armazenados com medidas de segurança adequadas para proteger contra acesso não autorizado.</p>
+                            <p>Você tem direito a solicitar acesso, correção ou exclusão de seus dados pessoais a qualquer momento entrando em contato conosco.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cookiePolicy">
+                            Política de Cookies
+                        </button>
+                    </h2>
+                    <div id="cookiePolicy" class="accordion-collapse collapse" data-bs-parent="#policyAccordion">
+                        <div class="accordion-body">
+                            <p>Utilizamos cookies para melhorar a experiência de navegação em nosso site e personalizar conteúdo e anúncios.</p>
+                            <p>Os cookies são pequenos arquivos de texto armazenados no seu dispositivo quando você visita nosso site.</p>
+                            <p>Você pode configurar seu navegador para recusar todos ou alguns cookies, ou para alertá-lo quando websites definem ou acessam cookies.</p>
+                            <p>Se desativar ou recusar cookies, note que algumas partes deste site podem se tornar inacessíveis ou não funcionar corretamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Conectasul</h5>
+                    <p>Internet fibra de alta velocidade e hospedagem de sites premium com qualidade e confiabilidade.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#inicio" class="text-white">Início</a></li>
+                        <li><a href="#planos" class="text-white">Planos</a></li>
+                        <li><a href="#sobre" class="text-white">Sobre Nós</a></li>
+                        <li><a href="#contato" class="text-white">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Conecte-se Conosco</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center">
+                <p>&copy; 2023 Conectasul Servicos de Hospedagem Na Internet LTDA - CNPJ: 42.331.755/0001-19</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
